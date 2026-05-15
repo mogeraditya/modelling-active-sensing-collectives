@@ -1,9 +1,9 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath("../../dynamic_model/"))
-sys.path.insert(0, os.path.abspath("../../GroupExperiment/"))
-# sys.path.insert(0, os.path.abspath('../../dynamic_model'))
+sys.path.insert(0, os.path.abspath("../../"))
+# sys.path.insert(0, os.path.abspath("../../GroupExperiment/"))
+sys.path.insert(0, os.path.abspath("../../dynamic_model"))
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -38,8 +38,6 @@ napoleon_custom_sections = ["Returns", "Examples", "Notes", "See Also"]
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-extensions = []
 
 templates_path = ["_templates"]
 exclude_patterns = []
