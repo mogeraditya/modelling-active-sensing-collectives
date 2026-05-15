@@ -2,7 +2,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath("../../"))
-# sys.path.insert(0, os.path.abspath("../../GroupExperiment/"))
+sys.path.insert(0, os.path.abspath("../../GroupExperiment/"))
 sys.path.insert(0, os.path.abspath("../../dynamic_model"))
 # Configuration file for the Sphinx documentation builder.
 #
