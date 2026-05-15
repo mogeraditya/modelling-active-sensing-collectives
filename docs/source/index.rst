@@ -10,7 +10,9 @@ Welcome to modelling-active-sensing-collectives's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   api
+   api_agents
+   api_simulation
+   api_supporting_files
 
 
 Indices and tables
