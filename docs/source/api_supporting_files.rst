@@ -1,5 +1,5 @@
 API Reference : Supporting Files
-======================
+=================================
 
 .. automodule:: supporting_files.vectors
    :members:
