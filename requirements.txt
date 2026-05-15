@@ -33,5 +33,5 @@ typing-extensions==4.14.0
 tzdata==2025.2
 urllib3==2.4.0
 sphinx
-sphinx-autodoc-typehints
 sphinx-rtd-theme
+sphinx-autodoc-typehints==1.25.0
