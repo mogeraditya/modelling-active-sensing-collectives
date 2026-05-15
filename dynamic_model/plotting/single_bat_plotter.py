@@ -133,7 +133,7 @@ def setup_visualization(parameters_df, bats, obstacles, jammers):
         obstacles (list): obstacles objects that the simualtion was intiated with
 
     Returns:
-        list: contains ax[0]es, figure, markers and artists to build the animation on.
+        list: contains axes, figure, markers and artists to build the animation on.
     """
 
     fig, ax = plt.subplots(figsize=(20, 10), nrows=1, ncols=3)
