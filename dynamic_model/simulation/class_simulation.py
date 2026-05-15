@@ -4,11 +4,13 @@ import json
 import os
 import pickle
 import sys
-import uuid
+
+# import uuid
 from datetime import datetime
 
 import numpy as np
-import pandas as pd
+
+# import pandas as pd
 
 # from supporting_files.store_history import CompactHistoryManager
 
@@ -17,10 +19,11 @@ from agents.class_bats import Bat
 from agents.class_obstacles import Obstacle
 from agents.class_sounds import DirectSound
 from agents.make_walls import make_walls
-from plotting.single_bat_plotter import visualize
+
+# from plotting.single_bat_plotter import visualize
 from supporting_files.utilities import (
     creation_time_calculation,
-    load_parameters,
+    # load_parameters,
     read_temporal_masking_fn,
 )
 from supporting_files.vectors import Vector
@@ -379,19 +382,19 @@ class Simulation:
         return data
 
 
-if __name__ == "__main__":
-    OUTPUT_DIR = r"./MISC/testing_single/thesis_video"
-    PARAMETER_FILE_DIR = r"./dynamic_model/paramsets/test_single.json"
-    PARAMETER_DF = load_parameters(PARAMETER_FILE_DIR)
-    sim = Simulation(PARAMETER_DF, OUTPUT_DIR)
-    sim.run()
+# if __name__ == "__main__":
+#     OUTPUT_DIR = r"./MISC/testing_single/thesis_video"
+#     PARAMETER_FILE_DIR = r"./dynamic_model/paramsets/test_single.json"
+#     PARAMETER_DF = load_parameters(PARAMETER_FILE_DIR)
+#     sim = Simulation(PARAMETER_DF, OUTPUT_DIR)
+#     sim.run()
 
-    unique_id = uuid.uuid4()
-    visualize(
-        output_dir=OUTPUT_DIR,
-        save_animation=True,
-        unique_id=unique_id,
-        resolution=30,
-        show_sounds=False,
-    )
-    print(unique_id)
+#     unique_id = uuid.uuid4()
+#     visualize(
+#         output_dir=OUTPUT_DIR,
+#         save_animation=True,
+#         unique_id=unique_id,
+#         resolution=30,
+#         show_sounds=False,
+#     )
+#     print(unique_id)

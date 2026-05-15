@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath("../../dynamic_model"))
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
+project = " Modelling Active Sensing Collectives"
 extensions = [
     "sphinx.ext.autodoc",  # Core autodoc
     "sphinx.ext.napoleon",  # Enable Google/NumPy style parsing
@@ -49,3 +49,4 @@ language = "english"
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
+html_logo = "flying_bat.png"

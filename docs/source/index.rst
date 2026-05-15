@@ -3,8 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to modelling-active-sensing-collectives's documentation!
+Welcome to the documentation!
 ================================================================
+This website contains the documentation of the code written as part of the thesis titled “Modelling Spatio-Temporal Consistency as a Mechanism for Echo-Segregation in Bat Swarms”. The thesis counts towards the partial fulfilment of the BS-MS dual degree programme at the Indian Institute of Science Education and Research, Pune.
+
+The work was carried out at the University of Konstanz under the supervision of Dr. Thejasvi Beleyur.
+
 
 .. toctree::
    :maxdepth: 2
