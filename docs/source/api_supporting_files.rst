@@ -1,9 +1,9 @@
 API Reference : Supporting Files
 =================================
 
-.. automodule:: supporting_files.vectors
-   :members:
-   :undoc-members:
+.. .. automodule:: supporting_files.vectors
+..    :members:
+..    :undoc-members:
 
 .. automodule:: supporting_files.snr_implementation
    :members:
