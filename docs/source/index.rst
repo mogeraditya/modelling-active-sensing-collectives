@@ -17,6 +17,9 @@ The work was carried out at the University of Konstanz under the supervision of 
    api_agents
    api_simulation
    api_supporting_files
+   api_plotting
+   api_scores
+   
 
 
 Indices and tables
